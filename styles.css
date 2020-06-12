@@ -1,0 +1,151 @@
+/* ----------Navigation Bar---------- */
+
+#Navbar {
+  padding-bottom: 30px;
+  background-color: #ffff;
+
+}
+
+
+.logo {
+  margin: auto;
+  display: block;
+}
+
+
+.nav-item {
+  color: #ffff;
+  font-family: "Playfair Display";
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  padding: 0 20px;
+  text-align: center;
+
+  /* display: inline; */
+}
+
+.daughter:hover {
+  color: pink;
+
+}
+
+.telephone-number {
+  font-family: "Ubuntu";
+  font-size: 1.25rem;
+  color: white;
+
+}
+
+
+
+/* ----------Second Section---------- */
+#Show {
+  background-color: #f9f7f7;
+
+}
+
+.booking {
+  text-align: center;
+  padding: 190 95;
+
+}
+
+.booking-button {
+  margin: 20px 0 20px;
+  width: 55%;
+}
+
+.greeting-heading-main {
+  font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-top: 150px;
+  text-align: center;
+
+}
+
+.greeting-text {
+  font-size: 70px;
+  line-height: 1.3em;
+  width: 60%;
+  margin: 0 auto 0 auto;
+
+}
+
+
+.main-photo {
+  width: 100%;
+}
+
+/* ----------Quote & Call---------- */
+.third {
+  padding: 0;
+  text-align: center;
+}
+
+.call {
+  padding: 40px 0 50px;
+  background-color: #3f72af;
+}
+
+.call-text {
+color: #f9f7f7;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.phone-number {
+
+  color: #f9f7f7;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+.phone-number:hover {
+  color: indianred;
+  text-decoration: none;
+}
+
+.quote-author {
+  color: #ffff;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.quote-div {
+  padding: 40px 0 50px;
+  background-color: #112d4e;
+}
+
+.quote-text {
+  color: #ffff;
+  font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+  font-size: 34px;
+}
+
+/* ----------Meet Doctor---------- */
+.keith-photo {
+  width: 100%;
+}
+
+/* ----------Map---------- */
+.contact-hours-info {
+  background-color: #f9f9f9;
+}
+
+.map {
+  background-color: #f9f9f9;
+
+}
+
+.map-link {
+  margin: 60px 0 0 175px;
+  max-width:100%;
+}
