@@ -127,6 +127,10 @@
 }
 
 /* ----------Meet Doctor---------- */
+.dr-col {
+  margin-bottom: 6%;
+}
+
 .dr-contact {
   border-bottom: 3px solid black;
   border-bottom-width: 3px;
@@ -134,7 +138,7 @@
   border-bottom-color: black;
   color: black;
   letter-spacing: 5px;
-  margin: 3% 20% 2%;
+  margin-left: 20%;
   position: absolute;
   text-decoration: none;
   font-size: 16px;
@@ -149,6 +153,9 @@
   border-bottom-color: gray;
   text-decoration: none;
 }
+
+
+
 .dr-intro {
   position: relative;
   text-align: left;
