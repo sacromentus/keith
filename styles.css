@@ -1,17 +1,21 @@
 /* ----------Navigation Bar---------- */
+.body {
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+}
 
 #Navbar {
   padding-bottom: 30px;
   background-color: #ffff;
-
 }
-
 
 .logo {
   margin: auto;
   display: block;
 }
-
 
 .nav-item {
   color: #ffff;
@@ -19,51 +23,43 @@
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: 1px;
-
   padding: 0 20px;
   text-align: center;
-
   /* display: inline; */
 }
 
 .daughter:hover {
   color: pink;
-
 }
 
 .telephone-number {
   font-family: "Ubuntu";
   font-size: 1.25rem;
   color: white;
-
 }
-
-
 
 /* ----------Second Section---------- */
 #Show {
   background-color: #f9f7f7;
-
 }
 
 .booking {
   text-align: center;
   padding: 190 95;
-
 }
 
 .booking-button {
-  margin: 20px 0 20px;
+  margin: 1.2rem 0 3rem;
+  height: 12.5%;
   width: 55%;
 }
 
 .greeting-heading-main {
-  font-family: "Lato",Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-size: 50px;
   letter-spacing: 5px;
   margin-top: 150px;
   text-align: center;
-
 }
 
 .greeting-text {
@@ -71,12 +67,11 @@
   line-height: 1.3em;
   width: 60%;
   margin: 0 auto 0 auto;
-
 }
-
 
 .main-photo {
   width: 100%;
+  height: 100%;
 }
 
 /* ----------Quote & Call---------- */
@@ -91,31 +86,31 @@
 }
 
 .call-text {
-color: #f9f7f7;
-    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-    letter-spacing: 2px;
+  color: #f9f7f7;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .phone-number {
-
   color: #f9f7f7;
-  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+  ;
   font-size: 25px;
   font-weight: 500;
   text-decoration: none;
-
 }
 
 .phone-number:hover {
-  color: indianred;
+  color: #990000;
   text-decoration: none;
+  font-weight: 700;
 }
 
 .quote-author {
   color: #ffff;
-  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
   font-size: 25px;
   font-weight: 300;
 }
@@ -127,26 +122,115 @@ color: #f9f7f7;
 
 .quote-text {
   color: #ffff;
-  font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
   font-size: 34px;
 }
 
 /* ----------Meet Doctor---------- */
+.dr-contact {
+  border-bottom: 3px solid black;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  color: black;
+  letter-spacing: 5px;
+  margin: 3% 20% 2%;
+  position: absolute;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lato', Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.dr-contact:hover {
+  color: inherit;
+  color: gray;
+  border-bottom-color: gray;
+  text-decoration: none;
+}
+.dr-intro {
+  position: relative;
+  text-align: left;
+}
+
+.dr-heading {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 1.7em;
+  padding: 10% 20% 2%;
+}
+
+.dr-text-main-body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7em;
+  padding: 0 20%;
+}
+
 .keith-photo {
   width: 100%;
 }
 
 /* ----------Map---------- */
+.bottom-link {
+  margin-left: 10%;
+}
+
 .contact-hours-info {
   background-color: #f9f9f9;
+  text-align: left;
+}
+
+.directions-header {
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-weight: 600;
+  letter-spacing: 5px;
+  padding: 4% 0 3% 10%;
+}
+
+.inner-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 3%;
+
 }
 
 .map {
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
+
+
+}
+
+.map-heading {
+  font-size: 38px;
+  line-height: 1.3em;
+  padding-top: 5%;
+  text-align: center;
 
 }
 
 .map-link {
-  margin: 60px 0 0 175px;
-  max-width:100%;
+  margin: 2% 0 5% 10%;
+  max-width: 100%;
+}
+
+.map-text {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 10%;
+}
+
+.phone-number-bottom {
+  color: #00c19e;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-left: 3%;
+
+}
+
+.phone-number-bottom:hover {
+  color: black;
+  text-decoration: none;
 }
