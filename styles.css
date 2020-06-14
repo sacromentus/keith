@@ -258,6 +258,11 @@
     font-size: 40px;
   }
 
+  /* Reduce margin beneath button to make site more compact */
+
+  .booking-button {
+    margin-bottom: 3%;
+  }
   .keith-photo {
     padding-top: 7%;
   }
