@@ -51,7 +51,7 @@
 
 .booking-button {
 
-  margin: 1.2rem 0 3rem;
+  margin: 1.2rem 0 4rem;
   height: 12.5%;
   width: 55%;
 }
@@ -246,7 +246,15 @@
 }
 
 @media screen and (max-width: 900px) {
+  .dr-col {
+    margin-bottom: 10%;
+  }
+
   .dr-text-main-body {
-    font-size: 32px;
+    font-size: 26px;
+  }
+
+  .greeting-text {
+    font-size: 40px;
   }
 }
