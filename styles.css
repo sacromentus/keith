@@ -246,7 +246,7 @@
 }
 
 @media (max-width: 900px) {
-  .booking-button {
-    font-size: 3rem;
+  .dr-text-main-body {
+    font-size: 36px;
   }
 }
