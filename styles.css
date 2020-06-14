@@ -245,8 +245,8 @@
   text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .dr-text-main-body {
-    font-size: 36px;
+    font-size: 60px;
   }
 }
