@@ -245,9 +245,13 @@
 
   .dr-text-main-body {
     font-size: 22px;
-    padding: 0 5%;
+    padding: 0 2%;
   }
 
+/* Reduce padding in Greeting (first) section */
+.booking {
+  padding: 1%;
+}
 /* Expand Greeting (first) section: greeting-heading-main moves-up and greeting-text reduces font size   */
 .greeting-heading-main {
   margin-top: 3%;
@@ -267,4 +271,7 @@
     padding-top: 7%;
   }
 
+  .bottom-link {
+    margin: 5% 10% 0;
+  }
 }
