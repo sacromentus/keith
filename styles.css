@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Light";
     font-size: 2rem;
     font-weight: 700;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 
 }
 
@@ -56,7 +56,7 @@ background-color:   #910029;
 
 .booking-button {
   border-color: black;
-
+  border-width: thick;
   color: black;
   background-color: #eeeeee;
   font-size: 2rem;
