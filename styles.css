@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #910029;
+    color: black;
 
   font-family: "Montserrat-Light";
     font-size: 2rem;
@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #910029;
+}
 .nav-item {
   padding: 0 20px;
 }
@@ -42,10 +45,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ----------Greeting Section With Main Landing photo of female---------- */
 #Show {
-  background-color: #f9f7f7;
+background-color:   #910029;
 }
 
 .booking {
+
   text-align: center;
   padding: 190 95;
 }
@@ -63,15 +67,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .greeting-heading-main {
+  color: white;
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-  font-size: 50px;
+  font-size: 4rem;
   letter-spacing: 5px;
   margin-top: 150px;
   text-align: center;
+
 }
 
 .greeting-text {
-  color: #3f72af;
+  color: white;
   font-family: 'Sriracha', cursive;
   font-size: 70px;
   line-height: 1.3em;
@@ -81,47 +87,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-photo {
   width: 100%;
+
 }
 
-/* ----------Quote & Call---------- */
-.third {
-  margin-right: 0;
-  padding: 0;
-  text-align: center;
-}
+/* ----------Review & Call---------- */
 
-.call {
+
+
+.review-div {
   padding: 40px 0 50px;
-  background-color: #3f72af;
-}
-
-.call-text {
-  color: #f9f7f7;
-  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  letter-spacing: 2px;
-}
-
-.phone-number {
-  color: #f9f7f7;
-  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  ;
-  font-size: 25px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.phone-number:hover {
-  color: #990000;
-  text-decoration: none;
-  font-weight: 700;
-}
-
-
-.quote-div {
-  padding: 40px 0 50px;
-  background-color: #112d4e;
+  background-color: #dedede;
 }
 
 .review-link:hover {
@@ -130,9 +105,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .review-header {
-  color: #ffff;
+  color: black;
   font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
-  font-size: 34px;
+  font-size: 3.25rem;
 }
 
 .review-header:hover {
@@ -141,9 +116,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .review-paragraph {
-  color: #ffff;
+  color: black;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-size: 25px;
+  font-size: 3rem;
   font-weight: 300;
 }
 
@@ -152,6 +127,41 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+  /* ------------ Call --------------- */
+.third {
+  margin-right: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.call {
+  padding: 40px 0 50px;
+  background-color: #eeeeee;
+}
+
+.call-text {
+  color: black;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-size: 3.25rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+
+.phone-number {
+  color: black;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+
+  font-size: 3rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.phone-number:hover {
+  color: #910029;
+  text-decoration: none;
+  font-weight: 700;
+}
 
 /* ----------Meet Doctor---------- */
 .dr-col {
