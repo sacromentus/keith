@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ----------Greeting Section With Main Landing photo of female---------- */
 #Show {
-background-color:   #910029;
+  background-color: #f9f7f7;
 }
 
 .booking {
@@ -55,23 +55,20 @@ background-color:   #910029;
 }
 
 .booking-button {
-  border-color: black;
-  border-width: thick;
-  color: black;
-  background-color: #eeeeee;
+  border-width: medium;
   font-size: 2rem;
-  
+  padding: 2rem 8rem;
 }
 
 .booking-button:hover {
-  background-color: black;
-  border-color: black;
-  color: #eeeeee;
+  border-color: inherit;
+    border-width: medium;
+  background-color: #3f72af;
+  color: #f9f7f7;
   font-weight: 700;
 }
 
 .greeting-heading-main {
-  color: white;
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-size: 4rem;
   letter-spacing: 5px;
@@ -81,12 +78,11 @@ background-color:   #910029;
 }
 
 .greeting-text {
-  color: white;
-  font-family: 'Sriracha', cursive;
-  font-size: 3.5rem;
+
+  font-size: 3.75rem;
   line-height: 1.3em;
   width: 60%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 50px auto;
 }
 
 .main-photo {
@@ -100,7 +96,7 @@ background-color:   #910029;
 
 .review-div {
   padding: 40px 0 50px;
-  background-color: #dedede;
+  background-color: #3f72af;
 }
 
 .review-link:hover {
@@ -109,7 +105,7 @@ background-color:   #910029;
 }
 
 .review-header {
-  color: black;
+  color: ivory;
   font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
   font-size: 3.25rem;
 }
@@ -120,7 +116,7 @@ background-color:   #910029;
 }
 
 .review-paragraph {
-  color: black;
+  color: ivory;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
   font-size: 3rem;
   font-weight: 300;
@@ -140,11 +136,11 @@ background-color:   #910029;
 
 .call {
   padding: 40px 0 50px;
-  background-color: #eeeeee;
+  background-color: #112d4e;
 }
 
 .call-text {
-  color: black;
+  color: ivory;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
   font-size: 3.25rem;
   font-weight: 600;
@@ -153,7 +149,7 @@ background-color:   #910029;
 
 
 .phone-number {
-  color: black;
+  color: ivory;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
 
   font-size: 3rem;
