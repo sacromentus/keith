@@ -55,15 +55,21 @@ background-color:   #910029;
 }
 
 .booking-button {
-
+  border-color: black;
+  border-width: medium;
+  color: black;
+  background-color: #eeeeee;
+  font-size: 2rem;
   margin: 1.2rem 0 4rem;
   height: 12.5%;
   width: 55%;
 }
 
 .booking-button:hover {
-  background-color: #3f72af;
-  color: #f9f7f7;
+  background-color: black;
+  border-color: black;
+  color: #eeeeee;
+  font-weight: 700;
 }
 
 .greeting-heading-main {
