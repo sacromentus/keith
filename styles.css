@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .booking-button:hover {
   background-color: #3f72af;
-  color: f9f7f7;
+  color: #f9f7f7;
 }
 
 .greeting-heading-main {
@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .greeting-text {
   color: #3f72af;
-  font-family: Sriracha;
+  font-family: 'Sriracha', cursive;
   font-size: 70px;
   line-height: 1.3em;
   width: 60%;
