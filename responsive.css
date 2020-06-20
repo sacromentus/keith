@@ -36,9 +36,15 @@
     margin: 5% 10% 0;
   }
 }
-@media screen and (min-width: 1024px) and (min-height: 1100) {
-  .main-photo {
 
-    margin-top: 50%;
+/* --------Adjust the Greeting Text padding to scale better at lower resolutions---------------- */
+@media screen and (max-width: 1368px)  {
+  .greeting-heading-main {
+    padding-top: 25px;
+  }
+
+  .booking-button {
+    padding: 0.5rem 2rem;
+    margin-bottom: 20px;
   }
 }

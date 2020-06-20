@@ -60,7 +60,7 @@ background-color:   #910029;
   color: black;
   background-color: #eeeeee;
   font-size: 2rem;
-  padding: 2rem 8rem;
+  
 }
 
 .booking-button:hover {
@@ -75,7 +75,7 @@ background-color:   #910029;
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-size: 4rem;
   letter-spacing: 5px;
-  margin-top: 150px;
+  padding-top: 150px;
   text-align: center;
 
 }
@@ -83,7 +83,7 @@ background-color:   #910029;
 .greeting-text {
   color: white;
   font-family: 'Sriracha', cursive;
-  font-size: 70px;
+  font-size: 3.5rem;
   line-height: 1.3em;
   width: 60%;
   margin: 0 auto 0 auto;
@@ -91,7 +91,7 @@ background-color:   #910029;
 
 .main-photo {
   width: 100%;
-
+  height: 100%;
 }
 
 /* ----------Review & Call---------- */
