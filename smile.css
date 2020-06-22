@@ -6,7 +6,7 @@ body {
 
 .img-comp-container {
   position: relative;
-  height: 200px; /*should be the same height as the images*/
+  height: 266px; /*should be the same height as the images*/
 
 }
 
@@ -34,4 +34,8 @@ body {
   background-color: #2196F3;
   opacity: 0.4;
   border-radius: 50%;
+}
+
+.photo-cell {
+  padding-bottom: 20px;
 }
