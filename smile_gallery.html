@@ -17,7 +17,7 @@
   <!--     CSS sheets     -->
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="responsive.css">
-
+  <link rel="stylesheet" href="smile.css">
   <!---    Fonts   ------>
 
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
   <section id="Navbar">
 
 
-    <img class="logo" src="images/logo.jpg" alt="Logo">
+    <a href="index.html"><img class="logo" src="images/logo.jpg" alt="Logo"></a>
 
     <!-- Collapsible Navigation Bar -->
 
@@ -69,11 +69,44 @@
             </div>
           </li>
         </ul>
-        <!-- NavBar -->
+
       </div>
     </nav>
+    <!-- NavBar -->
+
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="img-comp-container">
+          <div class="img-comp-img">
+            <img src="images/smiles/A1.jpg" width="400" height="266">
+          </div>
+          <div class="img-comp-img img-comp-overlay">
+            <img src="images/smiles/A2.jpg" width="400" height="266">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="img-comp-container smile-photo">
+          <div class="img-comp-img">
+            <img src="images/smiles/B1.jpg" width="400" height="266">
+          </div>
+          <div class="img-comp-img img-comp-overlay smile-photo">
+            <img src="images/smiles/B2.jpg" width="400" height="266">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
   </section>
   <!-- NavBar Section-->
+
+  <!-- Run comparison slider for before & after shots -->
+  <script src="index.js" charset="utf-8"></script>
+  <!-- <script>
+    initComparisons();
+  </script> -->
 </body>
 
 </html>

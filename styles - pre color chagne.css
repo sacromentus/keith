@@ -6,7 +6,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+
 }
+
 
 #Navbar {
   padding-bottom: 30px;
@@ -16,22 +18,16 @@ h1, h2, h3, h4, h5, h6 {
 .logo {
   margin: auto;
   display: block;
-  height: 129px;
-  width: 200px;
 }
 
-/* Changing the default font properties for the Navigation Bar */
 .navbar-light .navbar-nav .nav-link {
-  color: black;
-  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 1px;
-}
+    color: #910029;
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: Navy;
-  font-weight: 600;
+  font-family: "Montserrat-Light";
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+
 }
 
 .nav-item {
@@ -55,89 +51,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .booking-button {
-  border-width: medium;
-  font-size: 2rem;
-  padding: 2rem 8rem;
-}
 
-.booking-button:focus {
-  border-color: #3f72af;
-  background-color: #3f72af;
-  color: #f9f7f7;
-  font-weight: 700;
+  margin: 1.2rem 0 4rem;
+  height: 12.5%;
+  width: 55%;
 }
 
 .booking-button:hover {
-  border-color: #3f72af;
-  border-width: medium;
   background-color: #3f72af;
   color: #f9f7f7;
-  font-weight: 700;
-}
-
-.booking-button:active {
-  border-color: #3f72af;
-  background-color: #3f72af;
-  color: #f9f7f7;
-  font-weight: 700;
 }
 
 .greeting-heading-main {
-  color: #3f72af;
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
-  letter-spacing: 3px;
-  padding-top: 150px;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-top: 150px;
   text-align: center;
 }
 
 .greeting-text {
-  font-size: 3.75rem;
+  font-size: 70px;
   line-height: 1.3em;
   width: 60%;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 0 auto;
 }
 
 .main-photo {
   width: 100%;
-  height: 100%;
 }
 
-/* ----------Review & Call---------- */
-.review-div {
-  padding: 40px 0 50px;
-  background-color: #3f72af;
-}
-
-.review-link:hover {
-  text-decoration: none;
-}
-
-.review-header {
-  color: white;
-  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
-  font-size: 3.25rem;
-}
-
-.review-header:hover {
-  color: PaleGoldenRod;
-  font-weight: 600;
-}
-
-.review-paragraph {
-  color: white;
-  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2.75rem;
-  font-weight: 300;
-}
-
-.review-paragraph:hover {
-  color: PaleGoldenRod;
-  font-weight: 600;
-}
-
-/* ------------ Call --------------- */
+/* ----------Quote & Call---------- */
 .third {
   margin-right: 0;
   padding: 0;
@@ -146,35 +90,66 @@ h1, h2, h3, h4, h5, h6 {
 
 .call {
   padding: 40px 0 50px;
-  background-color: #112d4e;
+  background-color: #3f72af;
 }
 
 .call-text {
-  color: ivory;
+  color: #f9f7f7;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-size: 3.25rem;
+  font-size: 36px;
   font-weight: 600;
+  letter-spacing: 2px;
 }
 
 .phone-number {
-  color: ivory;
+  color: #f9f7f7;
   font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
-  font-size: 2.75rem;
+  ;
+  font-size: 25px;
   font-weight: 500;
   text-decoration: none;
 }
 
-.call-text:hover {
-  color: yellow;
+.phone-number:hover {
+  color: #990000;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.phone-number:hover {
-  color: yellow;
-  text-decoration: none;
-  font-weight: 600;
+
+.quote-div {
+  padding: 40px 0 50px;
+  background-color: #112d4e;
 }
+
+.review-link:hover {
+  text-decoration: none;
+
+}
+
+.review-header {
+  color: #ffff;
+  font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
+  font-size: 34px;
+}
+
+.review-header:hover {
+  color: #990000;
+  font-weight: 700;
+}
+
+.review-paragraph {
+  color: #ffff;
+  font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.review-paragraph:hover {
+  color: #990000;
+  font-weight: 700;
+}
+
 
 /* ----------Meet Doctor---------- */
 .dr-col {
