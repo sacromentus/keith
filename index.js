@@ -29,7 +29,8 @@ function initComparisons() {
     /* Or touched (for touch screens: */
     slider.addEventListener("touchstart", slideReady);
      /* And released (for touch screens: */
-    window.addEventListener("touchstop", slideFinish);
+    window.addEventListener("touchend", slideFinish);
+    window.addEventListener("touchcancel", slideFinish);
     function slideReady(e) {
       /* Prevent any other actions that may occur when moving over the image: */
       e.preventDefault();
