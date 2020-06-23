@@ -9,24 +9,32 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #Navbar {
-  padding-bottom: 30px;
   background-color: #ffff;
+  /* Max-Width is fix at 1028p max in order to prevent mismatching of navbar across pages */
+  max-width: 1903px;
+  padding-bottom: 30px;
 }
 
 .logo {
-  margin: auto;
+  margin: 0 47.5%;
   display: block;
   height: 129px;
   width: 200px;
 }
 
+
 /* Changing the default font properties for the Navigation Bar */
+.navbar {
+  max-width: 1871px;
+}
+
 .navbar-light .navbar-nav .nav-link {
   color: black;
   font-family: 'Playfair Display', Georgia, "Times New Roman", serif;
   font-size: 2rem;
   font-weight: 500;
   letter-spacing: 1px;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -100,11 +108,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-photo {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
-/* ----------Review & Call---------- */
+
+/* ----------Reviews Section---------- */
 .review-div {
   padding: 40px 0 50px;
   background-color: #3f72af;
