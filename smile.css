@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .img-comp-container {
   position: relative;
   height: 266px; /*should be the same height as the images*/
