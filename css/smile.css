@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+
+}
+
+.img-comp-img {
+  left: 150px;
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+
+}
+
+.img-comp-img img {
+
+  display: block;
+  vertical-align: middle;
+  border: 10px solid;
+  border-color: transparent;
+  margin: auto;
+
+}
+
+.img-comp-slider {
+  position: absolute;
+  left: 150px;
+  z-index: 2;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #2196F3;
+  opacity: 0.4;
+  border-radius: 50%;
+}
+
+.smile-gallery-logo {
+  margin-bottom: 10px;
+}
+
+.right-col, .left-col {
+  left: 20%;
+  padding: 20px 0;
+}
+
+.row-one, .row-two, .row-three {
+  border: 2mm solid;
+  margin-bottom: 30px;
+}
+
+.row-one {
+  border-color: rgb(17, 45, 78);
+}
+
+.row-two {
+  border-color: #4F4A49;
+}
+
+.row-three {
+  border-color: cornflowerblue;
+}

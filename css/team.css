@@ -1,0 +1,29 @@
+h1 {
+  font-weight: 200;
+
+}
+
+#team-pictures {
+    background-color: azure;
+
+  padding-top: 2%;
+  text-align: center;
+}
+
+.carousel-item {
+    background-color: azure;
+}
+
+.name-row {
+    border: 1px solid;
+    border-color: chocolate;
+    margin: auto;
+    font-weight: 200;
+    width: 30%;
+}
+
+.staff {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 1%;
+}

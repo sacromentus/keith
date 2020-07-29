@@ -1,0 +1,59 @@
+/* ----------Responsive---------- */
+@media screen and (max-width: 1000px) {
+  .dr-col {
+    margin-bottom: 10%;
+  }
+
+  .dr-text-main-body {
+    font-size: 22px;
+    padding: 0 2%;
+  }
+
+/* Reduce padding in Greeting (first) section */
+.booking {
+  padding: 1%;
+}
+/* Expand Greeting (first) section: greeting-heading-main moves-up and greeting-text reduces font size   */
+.greeting-heading-main {
+  margin-top: 3%;
+  font-size: 2.2em;
+  font-weight: 900;
+}
+
+  .greeting-text {
+    font-size: 40px;
+  }
+
+  /* Reduce margin beneath button to make site more compact */
+
+  .booking-button {
+    margin-bottom: 3%;
+  }
+  .keith-photo {
+    padding-top: 7%;
+  }
+
+  .bottom-link {
+    margin: 5% 10% 0;
+  }
+}
+
+/* --------Adjust the Greeting Text padding to scale better at lower resolutions---------------- */
+@media screen and (max-width: 1368px)  {
+  .greeting-heading-main {
+    padding-top: 25px;
+  }
+
+  .booking-button {
+    padding: 0.5rem 2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1100) {
+  .main-photo {
+    width: 100vw;
+    height: 100vh;
+
+  }
+}
