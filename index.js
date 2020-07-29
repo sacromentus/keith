@@ -2,7 +2,7 @@ function initComparisons() {
   var x, i;
   /* Find all elements with an "overlay" class: */
   x = document.getElementsByClassName("img-comp-overlay");
-  var custom_offset = 136;  // custom adjustment from the left of the screen 
+  var custom_offset = 36;  // custom adjustment from the left of the screen 
   for (i = 0; i < x.length; i++) {
     /* Once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function: */
