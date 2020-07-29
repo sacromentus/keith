@@ -2,11 +2,13 @@ function initComparisons() {
   var x, i;
   /* Find all elements with an "overlay" class: */
   x = document.getElementsByClassName("img-comp-overlay");
+  var custom_offset = 136;  // custom adjustment from the left of the screen 
   for (i = 0; i < x.length; i++) {
     /* Once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function: */
     compareImages(x[i]);
   }
+
   function compareImages(img) {
     var slider, img, clicked = 0, w, h;
     /* Get the width and height of the img element */
@@ -21,7 +23,7 @@ function initComparisons() {
     img.parentElement.insertBefore(slider, img);
     /* Position the slider in the middle: */
     slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    slider.style.left = custom_offset + (w / 2) - (slider.offsetWidth / 2) + 13 + "px"; // added 13 to adjust slider to appear higher
     /* Execute a function when the mouse button is pressed: */
     slider.addEventListener("mousedown", slideReady);
     /* And another function when the mouse button is released: */
@@ -31,6 +33,7 @@ function initComparisons() {
      /* And released (for touch screens: */
     window.addEventListener("touchend", slideFinish);
     window.addEventListener("touchcancel", slideFinish);
+
     function slideReady(e) {
       /* Prevent any other actions that may occur when moving over the image: */
       e.preventDefault();
@@ -40,10 +43,12 @@ function initComparisons() {
       window.addEventListener("mousemove", slideMove);
       window.addEventListener("touchmove", slideMove);
     }
+
     function slideFinish() {
       /* The slider is no longer clicked: */
       clicked = 0;
     }
+
     function slideMove(e) {
       var pos;
       /* If the slider is no longer clicked, exit this function: */
@@ -56,6 +61,7 @@ function initComparisons() {
       /* Execute a function that will resize the overlay image according to the cursor: */
       slide(pos);
     }
+
     function getCursorPos(e) {
       var a, x = 0;
       e = e || window.event;
@@ -67,11 +73,13 @@ function initComparisons() {
       x = x - window.pageXOffset;
       return x;
     }
+
     function slide(x) {
+        //
       /* Resize the image: */
       img.style.width = x + "px";
       /* Position the slider: */
-      slider.style.left = img.offsetWidth - (slider.offsetWidth / 2) + "px";
+      slider.style.left = custom_offset + img.offsetWidth - (slider.offsetWidth / 2) + 13 + "px";
     }
   }
 }
