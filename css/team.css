@@ -34,7 +34,7 @@ h3 {
 .team-div {
   background-color: WhiteSmoke;
   border-radius: 5%;
-  box-shadow: 5px 5px 0 0 #3f72af;
+  box-shadow: 5px 5px 0 0 black;
   height: 375px;
   left: 5%;
   right: 3%;
@@ -43,6 +43,10 @@ h3 {
   position: relative;
   width: 360px;
 
+}
+
+.three > .team-div {
+  box-shadow: 5px 5px 0 0 #2e2b2b;
 }
 
 
