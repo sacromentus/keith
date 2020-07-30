@@ -1,15 +1,19 @@
 function initComparisons() {
-  var x, i;
+  var x, i, y;
   /* Find all elements with an "overlay" class: */
   x = document.getElementsByClassName("img-comp-overlay");
-  var custom_offset = 36;  // custom adjustment from the left of the screen 
+  y = document.getElementsByClassName("first");
+  var custom_offset = 36;  // custom adjustment from the left of the screen
   for (i = 0; i < x.length; i++) {
     /* Once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function: */
-    compareImages(x[i]);
+    compareImages(x[i], y[i]);
   }
 
-  function compareImages(img) {
+  function compareImages(img, img2) {
+    /*  img = after photo
+        img2 = before photo    */
+
     var slider, img, clicked = 0, w, h;
     /* Get the width and height of the img element */
     w = img.offsetWidth;
@@ -24,12 +28,22 @@ function initComparisons() {
     /* Position the slider in the middle: */
     slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
     slider.style.left = custom_offset + (w / 2) - (slider.offsetWidth / 2) + 13 + "px"; // added 13 to adjust slider to appear higher
-    /* Execute a function when the mouse button is pressed: */
+    /* Execute a function when the mouse button is pressed:
+    add event listener to both imaages and slideReady
+    for easier interactivity
+    */
+    img.addEventListener("mousedown", slideReady);
     slider.addEventListener("mousedown", slideReady);
+    img2.addEventListener("mousedown", slideReady);
     /* And another function when the mouse button is released: */
     window.addEventListener("mouseup", slideFinish);
-    /* Or touched (for touch screens: */
+    /* Or touched (for touch screens:
+      add event listener to both imaages and slideReady
+      for easier interactivity
+     */
+    img.addEventListener("touchstart", slideReady);
     slider.addEventListener("touchstart", slideReady);
+    img2.addEventListener("mousedown", slideReady);
      /* And released (for touch screens: */
     window.addEventListener("touchend", slideFinish);
     window.addEventListener("touchcancel", slideFinish);
