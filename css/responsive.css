@@ -57,3 +57,11 @@
 
   }
 }
+
+/* Adjust Keith's photo to take up full screen  */
+/* @media screen and (max-width: 991px) {
+  .keith-photo {
+
+    width: 100%;
+  }
+} */
