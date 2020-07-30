@@ -8,12 +8,6 @@ h3 {
   text-align: center;
 }
 
-.flex-row {
-  display: flex;
-
-
-}
-
 .one {
   background-color: Skyblue;
 }
@@ -48,4 +42,13 @@ h3 {
 
 .team-photo {
   margin-top: 10%;
+}
+
+@media screen and (max-width: 500px) {
+  .team-div {
+    height: 275px;
+    width: 260px;
+
+
+  }
 }
