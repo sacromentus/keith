@@ -43,7 +43,7 @@ function initComparisons() {
      */
     img.addEventListener("touchstart", slideReady);
     slider.addEventListener("touchstart", slideReady);
-    img2.addEventListener("mousedown", slideReady);
+    img2.addEventListener("touchstart", slideReady);
      /* And released (for touch screens: */
     window.addEventListener("touchend", slideFinish);
     window.addEventListener("touchcancel", slideFinish);
