@@ -58,6 +58,17 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Adjust Services page font size to reduce when viewing on mobile */
 /* Adjust Keith's photo to take up full screen  */
 /* @media screen and (max-width: 991px) {
   .keith-photo {
