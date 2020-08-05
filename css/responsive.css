@@ -1,5 +1,13 @@
 /* ----------Responsive---------- */
 @media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
   .dr-col {
     margin-bottom: 10%;
   }
