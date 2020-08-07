@@ -44,10 +44,15 @@ function initComparisons() {
     img.addEventListener("touchstart", slideReady);
     slider.addEventListener("touchstart", slideReady);
     img2.addEventListener("touchstart", slideReady);
+    img.addEventListener("pointerdown", slideReady);
+    slider.addEventListener("pointerdown", slideReady);
+    img2.addEventListener("pointerdown", slideReady);
+
      /* And released (for touch screens: */
     window.addEventListener("touchend", slideFinish);
     window.addEventListener("touchcancel", slideFinish);
-
+    window.addEventListener("pointerup", slideFinish);
+    window.addEventListener("pointercancel", slideFinish);
     function slideReady(e) {
       /* Prevent any other actions that may occur when moving over the image: */
       e.preventDefault();
@@ -56,6 +61,8 @@ function initComparisons() {
       /* Execute a function when the slider is moved: */
       window.addEventListener("mousemove", slideMove);
       window.addEventListener("touchmove", slideMove);
+      window.addEventListener("pointermove", slideMove);
+
     }
 
     function slideFinish() {
