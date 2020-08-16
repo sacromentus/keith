@@ -32,24 +32,24 @@ function initComparisons() {
     add event listener to both imaages and slideReady
     for easier interactivity
     */
-    img.addEventListener("mousedown", slideReady);
+  //  img.addEventListener("mousedown", slideReady);
     slider.addEventListener("mousedown", slideReady);
-    img2.addEventListener("mousedown", slideReady);
+//    img2.addEventListener("mousedown", slideReady);
     /* And another function when the mouse button is released: */
     window.addEventListener("mouseup", slideFinish);
     /* Or touched (for touch screens:
       add event listener to both imaages and slideReady
       for easier interactivity
      */
-    img.addEventListener("touchstart", slideReady);
-    slider.addEventListener("touchstart", slideReady);
-    img2.addEventListener("touchstart", slideReady);
-    img.addEventListener("pointerdown", slideReady);
+  //  img.addEventListener("touchstart", slideReady);
+//    slider.addEventListener("touchstart", slideReady);
+  //  img2.addEventListener("touchstart", slideReady);
+//    img.addEventListener("pointerdown", slideReady);
     slider.addEventListener("pointerdown", slideReady);
-    img2.addEventListener("pointerdown", slideReady);
+  //  img2.addEventListener("pointerdown", slideReady);
 
      /* And released (for touch screens: */
-    window.addEventListener("touchend", slideFinish);
+  
     window.addEventListener("touchcancel", slideFinish);
     window.addEventListener("pointerup", slideFinish);
     window.addEventListener("pointercancel", slideFinish);
